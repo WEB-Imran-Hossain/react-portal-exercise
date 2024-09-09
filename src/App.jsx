@@ -1,9 +1,12 @@
+import PortalModal from "./components/portal-modal/PortalModal";
+import TraditionalModal from "./components/traditional-modal/TraditionalModal";
 
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <TraditionalModal />
+      <PortalModal />
     </>
   );
 }
